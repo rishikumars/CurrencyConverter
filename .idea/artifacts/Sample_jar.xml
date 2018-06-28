@@ -3,7 +3,6 @@
     <output-path>$PROJECT_DIR$/out/artifacts/Sample_jar</output-path>
     <root id="archive" name="Sample.jar">
       <element id="module-output" name="Sample_main" />
-      <element id="library" level="project" name="Gradle: com.github.rishikumars:CurrencyConverter:master" />
       <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/eclipse/jgit/org.eclipse.jgit.http.apache/3.7.1.201504261725-r/org.eclipse.jgit.http.apache-3.7.1.201504261725-r.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/eclipse/jgit/org.eclipse.jgit/3.7.1.201504261725-r/org.eclipse.jgit-3.7.1.201504261725-r.jar" path-in-jar="/" />
