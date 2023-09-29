@@ -18,6 +18,8 @@ public class CurrencyConvert {
         String responseString = EntityUtils.toString(entity, "UTF-8");
         JSONObject jsonObjectValue1 = new JSONObject(responseString);
         Double value = jsonObjectValue1.getDouble(c1.toUpperCase() + "_" + c2.toUpperCase());
+        value = value+1D;
+        value = 2D+value;
         return value;
     }
 
