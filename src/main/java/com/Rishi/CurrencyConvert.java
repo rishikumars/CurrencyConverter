@@ -16,8 +16,8 @@ public class CurrencyConvert {
         HttpResponse httpResponse = httpClient.execute(httpGet);
         HttpEntity entity = httpResponse.getEntity();
         String responseString = EntityUtils.toString(entity, "UTF-8");
-        JSONObject jsonObject = new JSONObject(responseString);
-        Double value = jsonObject.getDouble(c1.toUpperCase() + "_" + c2.toUpperCase());
+        JSONObject jsonObjectValue = new JSONObject(responseString);
+        Double value = jsonObjectValue.getDouble(c1.toUpperCase() + "_" + c2.toUpperCase());
         return value;
     }
 
